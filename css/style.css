@@ -122,4 +122,24 @@
   width: 100px;
   height: 100px;
   display: inline-block;
+  background-color: green;
+}
+
+.hero__naming {
+  color: blue;
+}
+.hero__attack {
+  color: green;
+}
+.hero__image {
+  width: 60px;
+  height: 34px;
+}
+.hero__link {
+  display: inline-block;
+}
+
+.category__heading {
+  text-align: center;
+  margin-bottom: 30px;
 }

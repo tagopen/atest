@@ -55,13 +55,4 @@ $(function() {
   });
 });
 
-var colorArray = ["red", "blue", "green", "orange", "yellow"]; 
-var i = 0; 
- 
-function changeColor(){
-    document.getElementsByClassName(".content__box").style.background = colorArray[i]; 
-    i++;
-    if( i > colorArray.length - 1){
-        i = 0;
-    };
-};
+
