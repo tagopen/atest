@@ -125,11 +125,17 @@
   background-color: green;
 }
 
-.hero__naming {
+.hero__name {
   color: blue;
+}
+.hero__naming {
+  display: inline-block;
+  margin-left: 25px;
 }
 .hero__attack {
   color: green;
+  display: inline-block;
+  margin-left: 15px;
 }
 .hero__image {
   width: 60px;
@@ -137,6 +143,7 @@
 }
 .hero__link {
   display: inline-block;
+  cursor: pointer;
 }
 
 .category__heading {

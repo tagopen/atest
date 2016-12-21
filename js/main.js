@@ -55,4 +55,19 @@ $(function() {
   });
 });
 
-
+window.onload = function () {
+    document.body.addEventListener('click', function(e) {
+        var e = e.target;
+        console.log(e.className)
+        if (e.className && e.className.indexOf('hero__image') != -1) {
+            var data_attack = e.parentElement.dataset.attack,
+                attack = document.querySelector('.hero__attack');
+            attack.innerText = data_attack;
+        }
+        if (e.className && e.className.indexOf('hero__image') != -1) {
+            var data_naming = e.parentElement.dataset.name,
+                naming = document.querySelector('.hero__naming');
+            naming.innerText = data_naming;
+        }
+    });
+}
